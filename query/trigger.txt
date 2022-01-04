@@ -1,0 +1,146 @@
+-L' utente può accedere ed utilizzare la piattaforma solo se il suo account risulta attivo- 
+
+CREATE FUNCTION CONTROLLO_STATO() RETURNS TRIGGER AS $$
+DECLARE
+	N1 VARCHAR(20);	
+BEGIN 
+	SELECT NOME_UTENTE INTO N1
+		FROM PIANO_DI_ABBONAMENTO AS P
+			WHERE STATO_PIANO = 'ON' AND NOME_UTENTE = NEW.NOME_UTENTE; 
+	IF(N1 IS NULL)
+		THEN RAISE EXCEPTION 'Account non attivo. Impossibile accedere alla piattaforma.';
+	END IF;
+	RETURN NEW;
+END;
+
+$$ LANGUAGE 'plpgsql';
+
+CREATE TRIGGER STATO_ACCOUNT
+AFTER INSERT OR UPDATE ON RECENSIONE
+FOR EACH ROW
+EXECUTE PROCEDURE CONTROLLO_STATO();
+
+CREATE TRIGGER STATO_ACCOUNT
+AFTER INSERT OR UPDATE ON VISUALIZZA
+FOR EACH ROW
+EXECUTE PROCEDURE CONTROLLO_STATO();
+
+CREATE TRIGGER STATO_ACCOUNT
+AFTER INSERT OR UPDATE ON PLAYLIST
+FOR EACH ROW
+EXECUTE PROCEDURE CONTROLLO_STATO();
+
+-L'utente può recensire un contenuto solo dopo averlo visualizzato 
+
+create or replace function controllo_recensione() returns trigger as $controllo_recensione$
+
+declare 
+	s1 VARCHAR (20);
+	s2 VARCHAR (20);
+
+begin
+	select nome_utente, codice into s1, s2
+	from visualizza
+	where nome_utente = new.nome_utente
+	and codice = new.codice;
+
+if ( (s1 is null) and (s2 is null) )
+then 
+	raise exception 'Impossibile inserire la recensione, il contenuto non è stato ancora visualizzato';
+
+end if;
+return new;
+end;
+$controllo_recensione$ LANGUAGE plpgsql;
+
+
+create trigger controllo_recensione
+before insert or update on recensione 
+for each row 
+execute procedure controllo_recensione();
+
+-L'utente può guardare solo i contenuti presenti nella piattaforma a cui è abbonato 
+
+CREATE FUNCTION CONTROLLO_VISUALIZZAZIONI() RETURNS TRIGGER AS $$
+ DECLARE
+  S1 CHAR(5);
+ BEGIN
+  SELECT X.CODICE,Y.INDIRIZZO_WEB INTO S1
+  FROM CONTIENE AS X,UTENTE AS Y
+  WHERE Y.NOME_UTENTE=NEW.NOME_UTENTE AND X.CODICE=NEW.CODICE AND X.INDIRIZZO_WEB=Y.INDIRIZZO_WEB;
+
+  IF (S1 IS NULL)
+   THEN RAISE EXCEPTION 'Impossibile visualizzare il contenuto, non è presente nella piattaforma';
+  END IF;
+  RETURN NEW;
+  END;
+$$ LANGUAGE 'plpgsql';
+
+
+CREATE TRIGGER GESTIONE_VISUALIZZAZIONI
+AFTER INSERT OR UPDATE ON VISUALIZZA
+FOR EACH ROW
+EXECUTE PROCEDURE CONTROLLO_VISUALIZZAZIONI();
+
+- Il numero di piano in cui lavora un IMPIEGATO o un MANUTENTORE, non deve essere superiore al numero di piani TOTALI presenti all'interno della SEDE dove questultimo lavora:
+
+create or replace function controllo_piano() returns trigger as $controllo_piano$
+
+declare 
+	n1 INTEGER;
+
+begin
+	select n_piani_totali into n1
+	from sede 
+	where cod_sede = new.cod_sede;
+
+if ( (new.n_piano > n1) or (new.n_piano < 0) )
+then 
+	raise exception 'Operazione non permessa, numero piano non valido';
+	
+end if;
+
+if (n1 is null)
+then 
+	raise exception 'Operazione non permessa, codice sede non valido';
+	
+end if;
+
+return new;
+end;
+$controllo_piano$ LANGUAGE plpgsql;
+
+
+create trigger controllo_piano
+before insert or update on impiegato 
+for each row 
+execute procedure controllo_piano();
+
+create trigger controllo_piano
+before insert or update on manutentore 
+for each row 
+execute procedure controllo_piano();
+
+-Lo stipendio di un impiegato non può essere maggiore di quello del suo capo
+
+CREATE FUNCTION CONTROLLO_STIPENDI() RETURNS TRIGGER AS $$
+ DECLARE
+  S1 CHAR(6);
+ BEGIN
+  SELECT X.MATRICOLA INTO S1
+  FROM IMPIEGATO AS X, PERSONALE AS Y, PERSONALE AS Z
+  WHERE (X.MATR_CAPO=NEW.MATRICOLA AND Y.MATRICOLA=NEW.MATRICOLA 
+	AND Z.MATRICOLA=X.MATRICOLA AND Z.STIPENDIO>=Y.STIPENDIO) OR
+	(X.MATRICOLA=NEW.MATR_CAPO AND Y.MATRICOLA=NEW.MATRICOLA 
+	AND Z.MATRICOLA=X.MATRICOLA AND Z.STIPENDIO<=Y.STIPENDIO);
+  IF (S1 IS NOT NULL)
+   THEN RAISE EXCEPTION 'Errore assegnazione stipendio';
+  END IF;
+  RETURN NEW;
+ END;
+ $$ LANGUAGE 'plpgsql';
+
+CREATE TRIGGER CONTROLLO_STIPENDI
+AFTER INSERT OR UPDATE ON IMPIEGATO
+FOR EACH ROW
+EXECUTE PROCEDURE CONTROLLO_STIPENDI();

@@ -1,0 +1,1133 @@
+INSERT INTO AZIENDA VALUES
+('40026447792','Sky','skysociety@comunication.com','051963214');
+INSERT INTO AZIENDA VALUES 
+('63749632140','Mediaset','info@mediaset.it','068532104');
+INSERT INTO AZIENDA VALUES 
+('02316945874','Netflix','netflix@streaming.com','086321254');
+INSERT INTO AZIENDA VALUES
+('74103698520','Dplay','contatt@dplay.com','061589620');
+INSERT INTO AZIENDA VALUES
+('91527643000','Chili','chilitv@stream.org','333526402');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO SEDE VALUES 
+('021','Via Bellinzona 251', 'Cologno Monzese','Italia','63749632140','10');
+INSERT INTO SEDE VALUES 
+('196','Via Pellegrini 689', 'Milano', 'Italia', '40026447792', '9');
+INSERT INTO SEDE VALUES
+('687','Madison Ave 702', 'New York', 'USA', '02316945874', '9');
+INSERT INTO SEDE VALUES
+('987','Via Casiraghi 174', 'Roma', 'Italia','74103698520','7');
+INSERT INTO SEDE VALUES
+('404','San Ingnacio Street', 'Merida', 'Messico','91527643000','3');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO UFFICIO VALUES 
+('1', '1', '021'); 
+INSERT INTO UFFICIO VALUES
+('1','2','021');
+INSERT INTO UFFICIO VALUES
+('1','3','021');
+INSERT INTO UFFICIO VALUES
+('1','4','021');
+INSERT INTO UFFICIO VALUES
+('1','5','021');
+INSERT INTO UFFICIO VALUES
+('1','6','021');
+INSERT INTO UFFICIO VALUES
+('2','1','021');
+INSERT INTO UFFICIO VALUES
+('2','2','021');
+INSERT INTO UFFICIO VALUES
+('2','3','021');
+INSERT INTO UFFICIO VALUES
+('2','4','021');
+INSERT INTO UFFICIO VALUES
+('2','5','021');
+INSERT INTO UFFICIO VALUES
+('1','9','196');
+INSERT INTO UFFICIO VALUES
+('1','8','196');
+INSERT INTO UFFICIO VALUES
+('1','7','196');
+INSERT INTO UFFICIO VALUES
+('1','6','196');
+INSERT INTO UFFICIO VALUES
+('1','5','196');
+INSERT INTO UFFICIO VALUES
+('2','5','196');
+INSERT INTO UFFICIO VALUES
+('2','9','196');
+INSERT INTO UFFICIO VALUES
+('2','8','196');
+INSERT INTO UFFICIO VALUES
+('2','7','196');
+INSERT INTO UFFICIO VALUES
+('2','6','196');
+INSERT INTO UFFICIO VALUES
+('3','9','196');
+INSERT INTO UFFICIO VALUES
+('1','9','687');
+INSERT INTO UFFICIO VALUES
+('1','8','687');
+INSERT INTO UFFICIO VALUES
+('1','7','687');
+INSERT INTO UFFICIO VALUES
+('1','6','687');
+INSERT INTO UFFICIO VALUES
+('1','5','687');
+INSERT INTO UFFICIO VALUES
+('2','5','687');
+INSERT INTO UFFICIO VALUES
+('2','6','687');
+INSERT INTO UFFICIO VALUES
+('2','7','687');
+INSERT INTO UFFICIO VALUES
+('2','8','687');
+INSERT INTO UFFICIO VALUES
+('2','9','687');
+INSERT INTO UFFICIO VALUES
+('3','6','687');
+INSERT INTO UFFICIO VALUES
+('1', '1', '987');
+INSERT INTO UFFICIO VALUES
+('1', '2', '987');
+INSERT INTO UFFICIO VALUES
+('1', '3', '987');
+INSERT INTO UFFICIO VALUES
+('1', '4', '987');
+INSERT INTO UFFICIO VALUES
+('2', '1', '987');
+INSERT INTO UFFICIO VALUES
+('2', '2', '987');
+INSERT INTO UFFICIO VALUES
+('2', '3', '987');
+INSERT INTO UFFICIO VALUES
+('2', '4', '987');
+INSERT INTO UFFICIO VALUES
+('3', '1', '987');
+INSERT INTO UFFICIO VALUES
+('3', '2', '987');
+INSERT INTO UFFICIO VALUES
+('3', '3', '987');
+INSERT INTO UFFICIO VALUES
+('3', '4', '987');
+INSERT INTO UFFICIO VALUES
+('1', '1', '404');
+INSERT INTO UFFICIO VALUES
+('1', '2', '404');
+INSERT INTO UFFICIO VALUES
+('2', '1', '404');
+INSERT INTO UFFICIO VALUES
+('2', '2', '404');
+INSERT INTO UFFICIO VALUES
+('3', '1', '404');
+INSERT INTO UFFICIO VALUES
+('3', '2', '404');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO LOCALE_SERVER VALUES 
+('7', '1', '021'); 
+INSERT INTO LOCALE_SERVER VALUES 
+('8', '1', '021'); 
+INSERT INTO LOCALE_SERVER VALUES 
+('9', '1', '021'); 
+INSERT INTO LOCALE_SERVER VALUES 
+('10', '1', '021'); 
+INSERT INTO LOCALE_SERVER VALUES 
+('7', '2', '021'); 
+INSERT INTO LOCALE_SERVER VALUES 
+('8', '2', '021'); 
+INSERT INTO LOCALE_SERVER VALUES 
+('9', '2', '021'); 
+INSERT INTO LOCALE_SERVER VALUES 
+('10', '2', '021'); 
+INSERT INTO LOCALE_SERVER VALUES
+('4','1','196');
+INSERT INTO LOCALE_SERVER VALUES
+('3','1','196');
+INSERT INTO LOCALE_SERVER VALUES
+('2','1','196');
+INSERT INTO LOCALE_SERVER VALUES
+('1','1','196');
+INSERT INTO LOCALE_SERVER VALUES
+('4','2','196');
+INSERT INTO LOCALE_SERVER VALUES
+('3','2','196');
+INSERT INTO LOCALE_SERVER VALUES
+('2','2','196');
+INSERT INTO LOCALE_SERVER VALUES
+('1','2','196');
+INSERT INTO LOCALE_SERVER VALUES
+('1','3','196');
+INSERT INTO LOCALE_SERVER VALUES
+('4','1','687');
+INSERT INTO LOCALE_SERVER VALUES
+('3','1','687');
+INSERT INTO LOCALE_SERVER VALUES
+('2','1','687');
+INSERT INTO LOCALE_SERVER VALUES
+('1','1','687');
+INSERT INTO LOCALE_SERVER VALUES
+('4','2','687');
+INSERT INTO LOCALE_SERVER VALUES
+('3','2','687');
+INSERT INTO LOCALE_SERVER VALUES
+('2','2','687');
+INSERT INTO LOCALE_SERVER VALUES
+('1','2','687');
+INSERT INTO LOCALE_SERVER VALUES
+('5', '1', '987');
+INSERT INTO LOCALE_SERVER VALUES
+('6', '1', '987');
+INSERT INTO LOCALE_SERVER VALUES
+('7', '1', '987');
+INSERT INTO LOCALE_SERVER VALUES
+('5', '2', '987');
+INSERT INTO LOCALE_SERVER VALUES
+('6', '2', '987');
+INSERT INTO LOCALE_SERVER VALUES
+('7', '2', '987');
+INSERT INTO LOCALE_SERVER VALUES
+('3', '1', '404');
+INSERT INTO LOCALE_SERVER VALUES
+('3', '2', '404');
+INSERT INTO LOCALE_SERVER VALUES
+('3', '3', '404');
+INSERT INTO LOCALE_SERVER VALUES
+('3', '4', '404');
+INSERT INTO LOCALE_SERVER VALUES
+('3', '5', '404');
+INSERT INTO LOCALE_SERVER VALUES
+('3', '6', '404');
+INSERT INTO LOCALE_SERVER VALUES
+('3', '7', '404');
+INSERT INTO LOCALE_SERVER VALUES
+('3', '8', '404');
+INSERT INTO LOCALE_SERVER VALUES
+('3', '9', '404');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO PERSONA VALUES
+('vslply94m25l458b','Matteo','Chiari','3333546987', 'mattechiari@service.it');
+INSERT INTO PERSONA VALUES
+('jnpsxp41c64a391k','Marco','Berti','3395646789','bertimarco@flix.com');
+INSERT INTO PERSONA VALUES
+('qrcwnm51l24a155m', 'Luigi', 'Aci','3333546705','aciluigi@liberte.net');
+INSERT INTO PERSONA VALUES
+('zztywq38r28d214a', 'Roberta', 'Elan','3485346789', 'robyalan@gmail.it');
+INSERT INTO PERSONA VALUES
+('yecsdd74g48s920v', 'Sara', 'Europa','3473467895', 'eurosara@fast.cim');
+INSERT INTO PERSONA VALUES
+('sgzggr91p10i535g', 'Alan', 'Caff','0385412067', 'cafalan10@mail.eu');
+INSERT INTO PERSONA VALUES
+('agmnvt56d50b816k', 'Laura', 'Mint','6780981253', 'lauramenta@send.crm');
+INSERT INTO PERSONA VALUES
+('snuolp53s45l843o', 'Roberto', 'Cono','3476789521','conorob@libera.usa');
+INSERT INTO PERSONA VALUES
+('bmxczx32f71j568t', 'Riccardo', 'Tempo', '3454679578','rictemp@live.com');
+INSERT INTO PERSONA VALUES
+('wscdef51t16y852s','Carl','Breav','4712367901','breavacarl@message.nit');
+INSERT INTO PERSONA VALUES
+('vdewrt46y58j965b','Bill','Frostner','5763018742','frostbill@netmail.org');
+INSERT INTO PERSONA VALUES
+('qazxsw07k37c024y','Cristzof','Blackikowski','6320986317','blackikowski@notmail.com');
+INSERT INTO PERSONA VALUES
+('awqpuh74r65e508m','Kalou','Sissoko','8302146789','sissokokalou@nigmail.cot');
+INSERT INTO PERSONA VALUES
+('hbcfre79p67l274z','Ashley','Collins','7614523019','collinsash@franknet.usa');
+INSERT INTO PERSONA VALUES
+('qweytr80l56y745d','Mirko','Krocovic','1597643298','mirko09@fines.cze');
+INSERT INTO PERSONA VALUES
+('nhtyjm54s63c315x','Al','Lopperlin','4610239784','lopperlinal@prignet.con');
+INSERT INTO PERSONA VALUES
+('puhkna08s78e637d','Blaise','Sanfrarou','9103264759','blaise77@francemail.cod');
+INSERT INTO PERSONA VALUES
+('lkjnht56y89j045f','Carlitos','Maralihia','4983263054','carlmara@cemail.fty');
+INSERT INTO PERSONA VALUES
+('dertgv47s14d489i','Thomas','Frastenbergh','9103264759','filler@master.nor');
+INSERT INTO PERSONA VALUES
+('srrmrz84p01512y','Maurizzio','Sarraddu','0741650220', 'maurisarraddu@utlook.it');
+INSERT INTO PERSONA VALUES
+('slvmri63l12w510m','Enzo','Salvi','3247895663', 'salvienz@umail.net');
+INSERT INTO PERSONA VALUES
+('prgrbr75g09s312v','Francesco','Pargigni','6948641002', 'pargignirobbe@sisal.com');
+INSERT INTO PERSONA VALUES
+('frtwlt90q02i908b','Walter','Fartolenni','3311547880', 'walfartolenni90@riscali.net');
+INSERT INTO PERSONA VALUES
+('rsspal88r12f576s','Paolo','Rossi','3258596774','paolinorossi@jmail.com');
+INSERT INTO PERSONA VALUES
+('vrdgsp70d30y987a','Giuseppe','Verdi','3345201889','giusgreen@libero.it');
+INSERT INTO PERSONA VALUES
+('bncfrn75e04k645c','Francesco','Bianchi','3985620114','frabianchi@tiscali.it');
+INSERT INTO PERSONA VALUES
+('rdzmch82d25j147z','Michele','Reduazzo','0901596887','mikereduazz82@gmail.com');
+INSERT INTO PERSONA VALUES
+('secmfi36b87n197k','Pablo','Santaga','3504985225','pablosanta@amail.mes');
+INSERT INTO PERSONA VALUES
+('efgvut76d89h046y','Carlo','Alonso','5815896310','alonso54@free.cze');
+INSERT INTO PERSONA VALUES
+('vrtsfe22d23r365h','Giovani','Dos Santos','048956123','giovdos@mailmessico.com');
+INSERT INTO PERSONA VALUES
+('bkjiop98f12m890l','Aldo','Baglio','3015849614','baglioaldo@gmmail.con');
+INSERT INTO PERSONA VALUES
+('strgvn67s05c732m','Giovanni','Strorti','3874510226','giovastorti@hmail.it');
+INSERT INTO PERSONA VALUES
+('srygcm43n09l130p','Giacomo','Poretti','3138760339', 'giacomino@kmail.cof');
+INSERT INTO PERSONA VALUES
+('ewqcft91m76a365q','Aldo','Nullazzo','5826452301','alnu@hmail.com');
+INSERT INTO PERSONA VALUES
+('ngtyui92n13c067k','Filippo','Terstuldi','3102856991', 'terstuldifill@lite.it');
+INSERT INTO PERSONA VALUES
+('kiuaze35b47m256o','Antonio','Albanese','0218495623', 'albaanto@post.com');
+INSERT INTO PERSONA VALUES
+('wertyu10m54k176w','Fabrizzio','Tarducci','3697102568','ff@goog.com');
+INSERT INTO PERSONA VALUES
+('mabhiu43h67y798u','Jonh','Carano','0447859614','jcarano@libre.net');
+INSERT INTO PERSONA VALUES
+('swqbkl82a25q574r','Nicola','Sansone','3436032113','sanso@comit.org');
+INSERT INTO PERSONA VALUES
+('swemlz20w96s800f','Fabio','Deluigi','3601287493', 'fabiodeluigi@write.urs');
+INSERT INTO PERSONA VALUES
+('skfbtx47z96m555d','Lorenzo','Calsigghi','1245879663', 'calsigghilor@fast.com');
+INSERT INTO PERSONA VALUES
+('lopman90m54l123z','Alessio','Semedo','0987516430', 'alesemedao@netm.com');
+INSERT INTO PERSONA VALUES
+('axzcvb20m45m678x','Giorgio','Zarletti','3189658741', 'giorzarl@alive.com');
+INSERT INTO PERSONA VALUES
+('jtrlpx76m48z225m','Anna','Rossi','3491490025','annaross@friscali.com');
+INSERT INTO PERSONA VALUES
+('vccdtl36r17e576t','Flavio','Verdi','4333215645', 'verdiverdi@tmail.com');
+INSERT INTO PERSONA VALUES
+('sgvcbp95h44d139y','Bob','Alf','1312036501','bobbealf@jointmail.com');
+INSERT INTO PERSONA VALUES
+('nqzvjf34d05l372l', 'Giulia', 'Rossi','0283564789',  'giulyred@lib.org');
+INSERT INTO PERSONA VALUES
+('pvtgcm69l27s410j','Giacomo','Pivetta','3398756445','pivettagiacomo@gnail.mob');
+INSERT INTO PERSONA VALUES
+('aswedc39f55h076e','Jack','Toleman','9951328476','jtol@englandmail.cor');
+INSERT INTO PERSONA VALUES
+('eyuikm90p12k375k','Steve','Bruscetti','0458962054','stevebrusc@sindme.usa');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO PERSONALE VALUES
+('a74102', '1000', 'vslply94m25l458b');
+INSERT INTO PERSONALE VALUES
+('g41586','2000','jnpsxp41c64a391k');
+INSERT INTO PERSONALE VALUES
+('c36478','1680','qrcwnm51l24a155m');
+INSERT INTO PERSONALE VALUES
+('f93067','3874','zztywq38r28d214a');
+INSERT INTO PERSONALE VALUES
+('o04567','7020','yecsdd74g48s920v');
+INSERT INTO PERSONALE VALUES
+('b14563','1900','sgzggr91p10i535g');
+INSERT INTO PERSONALE VALUES
+('l98767','5000','agmnvt56d50b816k');
+INSERT INTO PERSONALE VALUES
+('a68324','1200','snuolp53s45l843o');
+INSERT INTO PERSONALE VALUES
+('z49731','10000','bmxczx32f71j568t');
+INSERT INTO PERSONALE VALUES
+('m14523','4123','wscdef51t16y852s');
+INSERT INTO PERSONALE VALUES
+('q67484','8000','vdewrt46y58j965b');
+INSERT INTO PERSONALE VALUES
+('x10685','5200','qazxsw07k37c024y');
+INSERT INTO PERSONALE VALUES
+('v65213','3060','awqpuh74r65e508m');
+INSERT INTO PERSONALE VALUES
+('d52032','800','hbcfre79p67l274z');
+INSERT INTO PERSONALE VALUES
+('s76305','1100','qweytr80l56y745d');
+INSERT INTO PERSONALE VALUES
+('p37564','1400','nhtyjm54s63c315x');
+INSERT INTO PERSONALE VALUES
+('t29000','1110','puhkna08s78e637d');
+INSERT INTO PERSONALE VALUES
+('l45632','2300','lkjnht56y89j045f');
+INSERT INTO PERSONALE VALUES
+('w09806','700','dertgv47s14d489i');
+INSERT INTO PERSONALE VALUES
+('k15974','1900','srrmrz84p01512y');
+INSERT INTO PERSONALE VALUES
+('u49302','3040','slvmri63l12w510m');
+INSERT INTO PERSONALE VALUES
+('n05030','6020','prgrbr75g09s312v');
+INSERT INTO PERSONALE VALUES
+('h85640','5460','frtwlt90q02i908b');
+INSERT INTO PERSONALE VALUES
+('e73065','7300','rsspal88r12f576s');
+INSERT INTO PERSONALE VALUES
+('j95230','5840','vrdgsp70d30y987a');
+INSERT INTO PERSONALE VALUES
+('i69210','6320','bncfrn75e04k645c');
+INSERT INTO PERSONALE VALUES
+('g52014','600','rdzmch82d25j147z');
+INSERT INTO PERSONALE VALUES
+('v13126','6900','secmfi36b87n197k');
+INSERT INTO PERSONALE VALUES
+('o79631','1300','efgvut76d89h046y');
+INSERT INTO PERSONALE VALUES
+('j63696','1420','vrtsfe22d23r365h');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO MANUTENTORE VALUES 
+('a74102','2','7','1','021','vslply94m25l458b'); 
+INSERT INTO MANUTENTORE VALUES 
+('g41586','1','8','1','021','jnpsxp41c64a391k');
+INSERT INTO MANUTENTORE VALUES 
+('c36478','4','9','2','021','qrcwnm51l24a155m');
+INSERT INTO MANUTENTORE VALUES 
+('f93067','3','4','1','196','zztywq38r28d214a');
+INSERT INTO MANUTENTORE VALUES 
+('o04567','1','3','2','196','yecsdd74g48s920v');
+INSERT INTO MANUTENTORE VALUES 
+('b14563','5','1','3','196','sgzggr91p10i535g'); 
+INSERT INTO MANUTENTORE VALUES 
+('l98767','2','3','1','687','agmnvt56d50b816k');
+INSERT INTO MANUTENTORE VALUES 
+('a68324','3','2','2','687','snuolp53s45l843o');
+INSERT INTO MANUTENTORE VALUES 
+('z49731','7','1','2','687','bmxczx32f71j568t');
+INSERT INTO MANUTENTORE VALUES 
+('m14523','3','5','2','987','wscdef51t16y852s');
+INSERT INTO MANUTENTORE VALUES 
+('q67484','2','6','1','987','vdewrt46y58j965b'); 
+INSERT INTO MANUTENTORE VALUES 
+('x10685','4','7','2','987','qazxsw07k37c024y');
+INSERT INTO MANUTENTORE VALUES 
+('v65213','1','3','3','404','awqpuh74r65e508m');
+INSERT INTO MANUTENTORE VALUES 
+('d52032','5','3','5','404','hbcfre79p67l274z');
+INSERT INTO MANUTENTORE VALUES 
+('s76305','6','3','8','404','qweytr80l56y745d');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('a74102','progettista_hardware');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('g41586','elettricista');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('c36478','tecnico_informatico');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('f93067','progettista_hardware');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('o04567','addetto_cablaggi');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('b14563','operaio_manutentore');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('l98767','riparatore_circuiti');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('a68324','testing_cablaggi');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('z49731','progettista_hardware');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('m14523','elettricista');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('q67484','progettista_hardware');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('x10685','tecnico_informatico');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('v65213','progettista_hardware');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('d52032','elettricista');
+INSERT INTO TITOLO_MANUTENTORE VALUES
+('s76305','addetto_cablaggi');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO PIATTAFORMA VALUES
+('www.skytv.it','40026447792');
+INSERT INTO PIATTAFORMA VALUES
+('www.mediaset.streaming.it','63749632140');
+INSERT INTO PIATTAFORMA VALUES
+('www.netflix.com','02316945874');
+INSERT INTO PIATTAFORMA VALUES
+('www.dplay.com','74103698520');
+INSERT INTO PIATTAFORMA VALUES
+('www.chili.com', '91527643000');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO IMPIEGATO VALUES
+('p37564','1','1', '1', '021','l45632','www.skytv.it','nhtyjm54s63c315x');
+INSERT INTO IMPIEGATO VALUES
+('t29000','2','1','2','021','l45632','www.skytv.it','puhkna08s78e637d');
+INSERT INTO IMPIEGATO VALUES
+('l45632','3','1','3','021',NULL,'www.skytv.it','lkjnht56y89j045f');
+INSERT INTO IMPIEGATO VALUES
+('w09806','1','1','9','196','u49302','www.mediaset.streaming.it','dertgv47s14d489i');
+INSERT INTO IMPIEGATO VALUES
+('k15974','2','1','8','196','u49302','www.mediaset.streaming.it','srrmrz84p01512y');
+INSERT INTO IMPIEGATO VALUES
+('u49302','3','1','7','196',NULL,'www.mediaset.streaming.it','slvmri63l12w510m');
+INSERT INTO IMPIEGATO VALUES
+('n05030','1','1','9','687','e73065','www.netflix.com','prgrbr75g09s312v');
+INSERT INTO IMPIEGATO VALUES
+('h85640','2','1','8','687','e73065','www.netflix.com','frtwlt90q02i908b');
+INSERT INTO IMPIEGATO VALUES
+('e73065','3','1','7','687',NULL,'www.netflix.com','rsspal88r12f576s');
+INSERT INTO IMPIEGATO VALUES
+('j95230','1','1', '1', '987','i69210','www.dplay.com','vrdgsp70d30y987a');
+INSERT INTO IMPIEGATO VALUES
+('i69210','2','1', '2', '987',NULL,'www.dplay.com','bncfrn75e04k645c');
+INSERT INTO IMPIEGATO VALUES
+('g52014','3','1', '3', '987','i69210','www.dplay.com','rdzmch82d25j147z');
+INSERT INTO IMPIEGATO VALUES
+('v13126','1','1', '1', '404',NULL,'www.chili.com','secmfi36b87n197k');
+INSERT INTO IMPIEGATO VALUES
+('o79631','2','1', '2', '404','v13126','www.chili.com','efgvut76d89h046y');
+INSERT INTO IMPIEGATO VALUES
+('j63696','3','2', '1', '404','v13126','www.chili.com','vrtsfe22d23r365h');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('p37564','Laurea Informatica');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('t29000','Laurea Ingegneria');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('l45632','Diploma');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('w09806','Laurea Economia');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('k15974','Laurea Matematica');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('u49302','Diploma');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('n05030','Laurea Ingegneria');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('h85640','Diploma');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('e73065','Laurea Matematica');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('j95230','Laurea Matematica');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('i69210','Laurea Infomatica');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('g52014','Laurea Ingegneria');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('v13126','Laurea Informatica');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('o79631','Laurea Economia');
+INSERT INTO TITOLO_IMPIEGATO VALUES
+('j63696','Diploma');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO CASA_PRODUTTRICE VALUES
+('74295479021','Universal Pictures','Stati Uniti');
+INSERT INTO CASA_PRODUTTRICE VALUES
+('59283660917','Columbia Pictures','Stati Uniti');
+INSERT INTO CASA_PRODUTTRICE VALUES
+('22108489202','Walt Disney','Regno Unito');
+INSERT INTO CASA_PRODUTTRICE VALUES
+('31319638921','Warner Bros','Stati Uniti');
+INSERT INTO CASA_PRODUTTRICE VALUES
+('44726891317','Paramount Pictures','Stati Uniti');
+INSERT INTO CASA_PRODUTTRICE VALUES
+('89164738010','Fandango','Italia');
+INSERT INTO CASA_PRODUTTRICE VALUES
+('90775719232','Lucky Red', 'Italia');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO CONTENUTI VALUES 
+('43241','Nuovo Cinema Paradiso','Un regista ricorda la sua infanzia, quando si innamorò dei film al teatro del suo villaggio e formò una profonda amicizia con il proiezionista del teatro','Giuseppe Tornatore','Philippe Noiret, Salvatore Cascio, Marco Leonardi, Jacques Perrin, Agnese Nano','Drammatico','02:37:00','1988','F','11',NULL,NULL,'74295479021');
+INSERT INTO CONTENUTI VALUES 
+('79409','Possesion','Una donna ha lasciato la sua famiglia. Il marito sospetta che un uomo sia coinvolto. Trova strani comportamenti e incidenti bizzarri che indicano qualcosa di più di una storia d amore posseduta','Andrzej Żuławski','Isabelle Adjani, Sam Neill, Heinz Bennent, Margit Carstensen, Carl Duering, Johanna Hofer, Michael Hogben, Shaun Lawton, Leslie Matron, Maximilian Ruethlein, Thomas Frey, Gerd Neubert','Horror','02:07:00','1981','F','4',NULL,NULL,'74295479021');
+INSERT INTO CONTENUTI VALUES 
+('48492','La Casa','Cinque giovani studenti decidono di trascorrere del tempo in un isolata casipola nei boschi. Quella sera i giovani evocano delle arcane presenze maligne che cercheranno di possederli','Sam Raimi','Bruce Campbell, Sarah York, Betsy Baker, Ellen Sandweiss, Richard DeManincor, Philip A. Gillis, Dorothy Tapert, Cheryl Guttridge, Barbara Carey, David Horton, Wendall Thomas, Don Long, Ted Raimi','Horror', '01:25:00','1981','F','5',NULL,NULL,'74295479021');
+INSERT INTO CONTENUTI VALUES 
+('89284','The Office','La serie tra varie gag racconta la vita dei dipendenti di un ufficio di una ditta che si occupa di vendere carta','Ricky Gervais, Stephen Merchant','Steve Carell, Rainn Wilson, John Krasinski, Jenna Fischer, Mindy Kaling, B.J. Novak, Ed Helms, Paul Lieberstein','Commedia','00:25:00','2005','S','10','9','201','59283660917');
+INSERT INTO CONTENUTI VALUES 
+('59030','Amarcord','In una città italiana Titta assiste all azione di una vasta gamma di personaggi, dalla sua famiglia allargata alle lealisti fasciste alle donne sensuali, con certi momenti che si spostano in scenari fantastici','Federico Fellini','Bruno Zanin, Pupella Maggio, Armando Brancia, Giuseppe Ianigro, Gianfilippo Carcano, Ciccio Ingrassia, Magali Noël, Mario Liberate','Commedia','02:07:00','1973','F','6',NULL,NULL,'59283660917');
+INSERT INTO CONTENUTI VALUES 
+('01318','Parasite','La storia è basata sull incontro tra due nuclei familiari separati da un divario che sembrerebbe incolmabile e sull intreccio di vicende che ne scaturisce','Bong Joon-ho','Song Kang-ho, Sun-kyun Lee, Choi Woo-Sik, Hyae Jin Chang, Park So-dam, Yeo-jeong Jo','Drammatico','02:12:00','2019','F','9',NULL,NULL,'59283660917');
+INSERT INTO CONTENUTI VALUES 
+('80347','Snowpiercer','La Terra viene catapultata in un era glaciale. Gli unici salvi sono dentro allo Snowpiercer, un treno che fa il giro del mondo. Al suo interno viene ricreato un microcosmo della società umana diviso per classi sociali','Bong Joon-ho','Kang-ho Song, Chris Evans, Tilda Swinton, Jamie Bell, Octavia Spencer, John Hurt, Kenny Doughty','Azione','02:06:00','2013','F','5',NULL,NULL,'22108489202');
+INSERT INTO CONTENUTI VALUES 
+('83014','BoJack Horseman','In una Hollywood in cui animali antropomorfi e umani convivono, BoJack Horseman è una vecchia star del cinema. La storia mostra la sua vita con tutti i suoi problemi come depressione, abuso di alcool e droga che lo portano sempre più verso l autodistruzione','Raphael Bob-Waksberg','Will Arnett, Amy Sedaris, Alison Brie, Aaron Paul','Commedia','00:25:00','2014','S','3','6','77','22108489202');
+INSERT INTO CONTENUTI VALUES 
+('10984','La Forma dell Acqua','Una storia, ambientata sullo sfondo dell era della Guerra Fredda America, dove una ragazza muta che lavora in un laboratorio si innamora di un uomo anfibio tenuto prigioniero lì e escogita un piano per aiutarlo a fuggire','Guillermo del Toro','Sally Hawkins, Michael Shannon, Doug Jones, Lauren Lee Smith, Michael Stuhlbarg','Drammatico','01:59:00','2018','F','7',NULL,NULL,'22108489202');
+INSERT INTO CONTENUTI VALUES 
+('08417','Dogman','Matteo è un uomo che si divide tra il suo lavoro da toelettatore di cani e le giornate trascorse con la figlia Sofia. Ha un rapporto con Simoncino, un ex pugile che lo tormenta. Esausto e esasperato dal modo in cui è trattato, Matteo decide di vendicarsi in modo crudele','Matteo Garrone','Marcello Fonte, Edoardo Pesce, Nunzia Schiano, Adamo Dionisi, Francesco Acquaroli','Western','02:00:00','2018','F','5',NULL,NULL,'31319638921');
+INSERT INTO CONTENUTI VALUES 
+('08313','Il Cigno Nero','Nina, una veterana della danza deve fare i conti con la spietata rivalità della più giovane Lily. Certo Nina non sa se Lily sia reale o solo una creazione della sua fantasia','Darren Aronofsky','Mila Kunis, Natalie Portman, Vincent Cassel, Christopher Gartin, Winona Ryder, Sebastian Stan','Thriller','01:50:00','2010','F','6',NULL,NULL,'31319638921');
+INSERT INTO CONTENUTI VALUES 
+('12092','Peaky Blinders','La vicenda è ambientata nel quartiere di Small Heath e si focalizza particolarmente sulla famiglia Shelby, il cui secondogenito, Thomas, è anche il boss della gang detta Peaky Blinders','Steven Knight','Cillian Murphy , Paul Anderson , Iddo Goldberg , Joe Cole , Sophie Rundle','Drammatico','00:30:00','2013','S','8','5','30','31319638921');
+INSERT INTO CONTENUTI VALUES 
+('30323','Arancia Meccanica','Un giovane passa il suo tempo fra furti, stupri in compagnia dei suoi “drughi”. Finisce in prigione dove subisce un lavaggio del cervello, che lo plasma a buon cittadino. Uscito dovrà fare i conti con la realtà e la sua identità','Stanley Kubrick','Malcolm Mcdowell, Patrick Magee, Michael Bates, Warren Clarke, John Clive','Drammatico','02:17:00','1971','F','5',NULL,NULL,'44726891317');
+INSERT INTO CONTENUTI VALUES 
+('11111','Barry Lyndon','Viene narrata la travagliata vita del giovane Redmond Barry: da fuggiasco a guerriero, da uomo potente a povero e senza averi','Stanley Kubrick','Ryan O’Neal, Marisa Berenson, Patrick Magee, Hardy Krüger, Steven Berkoff, Gay Hamilton, Marie Kean, Diana Körner','Drammatico','03:04:00','1975','F','3',NULL,NULL,'44726891317');
+INSERT INTO CONTENUTI VALUES 
+('02970','Shining','Lo scrittore in crisi Jack Torrance si trasferisce presso l Overlook Hotel dove ha accettato il lavoro di guardiano, insieme alla moglie Wendy e al figlio Danny. La solitudine farà ben presto degenerare la situazione','Stanley Kubrick','Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers','Thriller','02:26:00','1980','F','5',NULL,NULL,'44726891317');
+INSERT INTO CONTENUTI VALUES 
+('80131','Twin Peaks','Twin Peaks è una tranquilla località montana dello stato di Washington, poco distante dal Canada. Una mattina Pete Martell scopre il cadavere nudo di una ragazza avvolto in un telo di plastica','David Lynch','Kyle MacLachlan , Michael Ontkean , Mädchen Amick , Dana Ashbrook , Richard Beymer','Drammatico','00:47:00','1990','S','8','3','30','89164738010');
+INSERT INTO CONTENUTI VALUES 
+('26015','Breaking Bad','L improvviso cambiamento di un uomo comune. Walter White, placido insegnante di liceo, si ammala di un male incurabile. Scopre di non avere più nulla da perdere diventando uno spacciatore di droga','Vince Gilligan','Bryan Cranston , Anna Gunn , Aaron Paul , Dean Norris , Betsy Brandt','Drammatico','00:50:00','2008','S','7','5','62','89164738010');
+INSERT INTO CONTENUTI VALUES 
+('09123','La Casa di Carta','La storia narra gli sviluppi di una rapina estremamente ambiziosa e originale: irrompere nella Fábrica Nacional de Moneda y Timbre, a Madrid, far stampare migliaia di milioni di banconote e scappare con il bottino','Álex Pina','Úrsula Corberó , Itziar Ituño , Álvaro Morte , Paco Tous , Pedro Alonso','Azione','00:49:00','2017','S','3','2','31','89164738010');
+INSERT INTO CONTENUTI VALUES 
+('22222','Ferro 3','Tae-suk vive in appartamenti non suoi dove si introduce in assenza dei proprietari. Un giorno incontra una ragazza di cui si innamora e che decide di seguirlo','Kim Ki-duk','Lee Seoung-Yeon, Jae Hee, Kwon Hyuk-Ho, Ju Jin-Mo, Choi Jeong-Ho, Lee Joo-Suk, Lee Mi-Sook','Drammatico','01:35:00','2004','F','6',NULL,NULL,'90775719232');
+INSERT INTO CONTENUTI VALUES 
+('78147','Dumbo','La storia di Holt ingaggiato in un circo per prendersi cura di Dumbo, un cucciolo di elefante con due orecchie enormi. Ma quando scoprono che Dumbo è in grado di volare faranno dell elefantino indifeso una star','Tim Burton','Colin Farrell, Michael Keaton, Danny DeVito, Eva Green','Fantastico','01:52:00','2019','F','5',NULL,NULL,'90775719232');
+INSERT INTO CONTENUTI VALUES 
+('33333','Non Essere Cattivo','E la storia di Cesare e Vittorio legati da una forte amicizia che resiste anche quando i loro destini si separano. Vittorio riesce a trovare un lavoro mentre Cesare affonda nella droga e nello spaccio','Claudio Caligari','Alessandro Borghi, Luca Marinelli, Roberta Mattei, Silvia D Amico','Drammatico','01:40:00','2015','F','3',NULL,NULL,'90775719232');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO ACQUISTA VALUES
+('40026447792','43241');
+INSERT INTO ACQUISTA VALUES
+('40026447792','79409');
+INSERT INTO ACQUISTA VALUES
+('40026447792','48492');
+INSERT INTO ACQUISTA VALUES
+('40026447792','89284');
+INSERT INTO ACQUISTA VALUES
+('40026447792','83014');
+INSERT INTO ACQUISTA VALUES
+('40026447792','08417');
+INSERT INTO ACQUISTA VALUES
+('40026447792','12092');
+INSERT INTO ACQUISTA VALUES
+('40026447792','22222');
+INSERT INTO ACQUISTA VALUES
+('40026447792','26015');
+INSERT INTO ACQUISTA VALUES
+('40026447792','09123');
+INSERT INTO ACQUISTA VALUES
+('63749632140','10984');
+INSERT INTO ACQUISTA VALUES
+('63749632140','01318');
+INSERT INTO ACQUISTA VALUES
+('63749632140','89284');
+INSERT INTO ACQUISTA VALUES
+('63749632140','59030');
+INSERT INTO ACQUISTA VALUES
+('63749632140','43241');
+INSERT INTO ACQUISTA VALUES
+('63749632140','22222');
+INSERT INTO ACQUISTA VALUES
+('63749632140','79409');
+INSERT INTO ACQUISTA VALUES
+('63749632140','48492');
+INSERT INTO ACQUISTA VALUES
+('63749632140','02970');
+INSERT INTO ACQUISTA VALUES
+('63749632140','33333');
+INSERT INTO ACQUISTA VALUES
+('02316945874','01318');
+INSERT INTO ACQUISTA VALUES
+('02316945874','11111');
+INSERT INTO ACQUISTA VALUES
+('02316945874','08313');
+INSERT INTO ACQUISTA VALUES
+('02316945874','33333');
+INSERT INTO ACQUISTA VALUES
+('02316945874','80131');
+INSERT INTO ACQUISTA VALUES
+('02316945874','78147');
+INSERT INTO ACQUISTA VALUES
+('02316945874','43241');
+INSERT INTO ACQUISTA VALUES
+('02316945874','48492');
+INSERT INTO ACQUISTA VALUES
+('02316945874','59030');
+INSERT INTO ACQUISTA VALUES
+('02316945874','09123');
+INSERT INTO ACQUISTA VALUES
+('74103698520','30323');
+INSERT INTO ACQUISTA VALUES
+('74103698520','11111');
+INSERT INTO ACQUISTA VALUES
+('74103698520','79409');
+INSERT INTO ACQUISTA VALUES
+('74103698520','08417');
+INSERT INTO ACQUISTA VALUES
+('74103698520','26015');
+INSERT INTO ACQUISTA VALUES
+('74103698520','80131');
+INSERT INTO ACQUISTA VALUES
+('74103698520','22222');
+INSERT INTO ACQUISTA VALUES
+('74103698520','08313');
+INSERT INTO ACQUISTA VALUES
+('74103698520','80347');
+INSERT INTO ACQUISTA VALUES
+('74103698520','48492');
+INSERT INTO ACQUISTA VALUES
+('91527643000','33333');
+INSERT INTO ACQUISTA VALUES
+('91527643000','43241');
+INSERT INTO ACQUISTA VALUES
+('91527643000','09123');
+INSERT INTO ACQUISTA VALUES
+('91527643000','78147');
+INSERT INTO ACQUISTA VALUES
+('91527643000','26015');
+INSERT INTO ACQUISTA VALUES
+('91527643000','08417');
+INSERT INTO ACQUISTA VALUES
+('91527643000','59030');
+INSERT INTO ACQUISTA VALUES
+('91527643000','80347');
+INSERT INTO ACQUISTA VALUES
+('91527643000','79409');
+INSERT INTO ACQUISTA VALUES
+('91527643000','89284');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO CONTIENE VALUES
+('43241','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('79409','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('48492','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('89284','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('83014','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('08417','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('12092','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('22222','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('26015','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('09123','www.skytv.it');
+INSERT INTO CONTIENE VALUES
+('10984','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('01318','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('89284','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('59030','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('43241','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('22222','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('79409','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('48492','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('02970','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('33333','www.mediaset.streaming.it');
+INSERT INTO CONTIENE VALUES
+('01318','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('11111','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('08313','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('33333','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('80131','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('78147','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('43241','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('48492','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('59030','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('09123','www.netflix.com');
+INSERT INTO CONTIENE VALUES
+('30323','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('11111','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('79409','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('08417','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('26015','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('80131','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('22222','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('08313','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('80347','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('48492','www.dplay.com');
+INSERT INTO CONTIENE VALUES
+('33333','www.chili.com');
+INSERT INTO CONTIENE VALUES
+('43241','www.chili.com');
+INSERT INTO CONTIENE VALUES
+('09123','www.chili.com');
+INSERT INTO CONTIENE VALUES
+('78147','www.chili.com');
+INSERT INTO CONTIENE VALUES
+('26015','www.chili.com');
+INSERT INTO CONTIENE VALUES
+('08417','www.chili.com');
+INSERT INTO CONTIENE VALUES
+('59030','www.chili.com');
+INSERT INTO CONTIENE VALUES
+('80347','www.chili.com');
+INSERT INTO CONTIENE VALUES
+('79409','www.chili.com');
+INSERT INTO CONTIENE VALUES
+('89284','www.chili.com');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO UTENTE VALUES
+('aldobaglio','i2b24fo2t3','bkjiop98f12m890l','www.skytv.it');
+INSERT INTO UTENTE VALUES
+('giostorti','2837rgbxnd','strgvn67s05c732m','www.skytv.it');
+INSERT INTO UTENTE VALUES
+('giacomoporetti','bie32ruhff','srygcm43n09l130p','www.skytv.it');
+INSERT INTO UTENTE VALUES
+('aldonullazzo','bx39udb312','ewqcft91m76a365q','www.skytv.it');
+INSERT INTO UTENTE VALUES
+('filippoterstuldi','bx93hrxni','ngtyui92n13c067k','www.mediaset.streaming.it');
+INSERT INTO UTENTE VALUES
+('antoalbanese','b98ehoezp','kiuaze35b47m256o','www.mediaset.streaming.it');
+INSERT INTO UTENTE VALUES
+('filippotarducci','uo1ebxzns','wertyu10m54k176w','www.mediaset.streaming.it');
+INSERT INTO UTENTE VALUES
+('johncarano','nno2oeon1o','mabhiu43h67y798u','www.mediaset.streaming.it');
+INSERT INTO UTENTE VALUES
+('nicolasansone','ni0ideusb1','swqbkl82a25q574r','www.netflix.com');
+INSERT INTO UTENTE VALUES
+('fabriziodeluigi','buxbqoi131s','swemlz20w96s800f','www.netflix.com');
+INSERT INTO UTENTE VALUES
+('lollocalsigghi','nxwoxbw94he','skfbtx47z96m555d','www.netflix.com');
+INSERT INTO UTENTE VALUES
+('allesemedo','nco29rfh0d','lopman90m54l123z','www.netflix.com');
+INSERT INTO UTENTE VALUES
+('giorgiozarletti','xbo19d9da','axzcvb20m45m678x','www.dplay.com');
+INSERT INTO UTENTE VALUES
+('annarossi','o1d1d9cn3','jtrlpx76m48z225m','www.dplay.com');
+INSERT INTO UTENTE VALUES
+('flavioverdi','noxn20dn2','vccdtl36r17e576t','www.dplay.com');
+INSERT INTO UTENTE VALUES
+('bobalf','iwx19mdndi','sgvcbp95h44d139y','www.dplay.com');
+INSERT INTO UTENTE VALUES
+('giuliarossi','nixwp1d19dn','nqzvjf34d05l372l','www.chili.com');
+INSERT INTO UTENTE VALUES
+('giacomopivetta','x29e8138hd','pvtgcm69l27s410j','www.chili.com');
+INSERT INTO UTENTE VALUES
+('jacktoleman','ien0i29jn2','aswedc39f55h076e','www.chili.com');
+INSERT INTO UTENTE VALUES
+('stevebruscetti','nipw93jdn2','eyuikm90p12k375k','www.chili.com');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('filippoterstuldi', 'ON', '2020-04-23', '2020-05-23', 'Base', 'Paypal');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('antoalbanese', 'ON', '2020-01-03', '2021-01-03', 'Family', 'Bancomat');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('filippotarducci', 'OFF', '2019-05-23', '2019-06-23', 'Base', 'Postepay');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('johncarano', 'ON', '2020-02-10', '2020-05-10', 'Premium', 'Carta di credito');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('nicolasansone', 'OFF', '2020-03-23', '2020-04-23', 'Base', 'Postepay');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('fabriziodeluigi', 'ON', '2020-07-31', '2020-10-31', 'Premium', 'Paypal');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('lollocalsigghi', 'OFF', '2020-01-14', '2020-02-14', 'Base', 'Carta di credito');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('allesemedo', 'OFF', '2019-09-11', '2019-12-11', 'Premium', 'Paypal');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('giorgiozarletti', 'OFF', '2019-12-22', '2020-01-22', 'Base', 'Paypal');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('annarossi', 'ON', '2020-03-03', '2021-03-03', 'Family', 'Bancomat');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('aldobaglio', 'ON', '2020-03-23', '2020-06-23', 'Premium', 'Postepay');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('giostorti', 'OFF', '2019-09-07', '2019-12-07', 'Premium', 'Bancomat');
+INSERT INTO PIANO_DI_ABBONAMENTO VALUES
+('giacomoporetti', 'ON', '2020-04-17', '2021-04-17', 'Family', 'Revolut');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO PLAYLIST VALUES
+('filippoterstuldi', '234910', 'Tempo Libero');
+INSERT INTO PLAYLIST VALUES
+('allesemedo', '594152', 'Compagnia');
+INSERT INTO PLAYLIST VALUES
+('lollocalsigghi', '412803', 'Sport');
+INSERT INTO PLAYLIST VALUES
+('giorgiozarletti', '941227', 'Documentari');
+INSERT INTO PLAYLIST VALUES
+('giacomoporetti', '339614', 'Formazione');
+INSERT INTO PLAYLIST VALUES
+('antoalbanese', '114200', 'Da finire');
+INSERT INTO PLAYLIST VALUES
+('johncarano', '415592', 'Scuola');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO AGGIUNTI_A VALUES
+('80347', 'filippoterstuldi', '234910');
+INSERT INTO AGGIUNTI_A VALUES
+('12092', 'filippoterstuldi', '234910');
+INSERT INTO AGGIUNTI_A VALUES
+('09123', 'filippoterstuldi', '234910');
+INSERT INTO AGGIUNTI_A VALUES
+('26015', 'filippoterstuldi', '234910');
+INSERT INTO AGGIUNTI_A VALUES
+('30323', 'antoalbanese', '114200');
+INSERT INTO AGGIUNTI_A VALUES
+('78147', 'johncarano', '415592');
+INSERT INTO AGGIUNTI_A VALUES
+('08417', 'allesemedo', '594152');
+INSERT INTO AGGIUNTI_A VALUES
+('33333', 'giorgiozarletti', '941227');
+INSERT INTO AGGIUNTI_A VALUES
+('01318', 'allesemedo', '594152');
+INSERT INTO AGGIUNTI_A VALUES
+('89284', 'lollocalsigghi', '412803');
+INSERT INTO AGGIUNTI_A VALUES
+('08313', 'antoalbanese', '114200');
+INSERT INTO AGGIUNTI_A VALUES
+('11111', 'giorgiozarletti', '941227');
+INSERT INTO AGGIUNTI_A VALUES
+('83014', 'giacomoporetti', '339614');
+INSERT INTO AGGIUNTI_A VALUES
+('48492', 'giacomoporetti', '339614');
+INSERT INTO AGGIUNTI_A VALUES 
+('12092', 'giacomoporetti', '339614');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO VISUALIZZA VALUES
+('filippoterstuldi', '43241');
+INSERT INTO VISUALIZZA VALUES
+('filippoterstuldi', '48492');
+INSERT INTO VISUALIZZA VALUES
+('filippoterstuldi', '89284');
+INSERT INTO VISUALIZZA VALUES
+('filippoterstuldi', '80347');
+INSERT INTO VISUALIZZA VALUES
+('filippoterstuldi', '83014');
+INSERT INTO VISUALIZZA VALUES
+('giacomoporetti', '83014');
+INSERT INTO VISUALIZZA VALUES
+('giacomoporetti', '10984');
+INSERT INTO VISUALIZZA VALUES
+('giacomoporetti', '12092');
+INSERT INTO VISUALIZZA VALUES
+('giacomoporetti', '11111');
+INSERT INTO VISUALIZZA VALUES
+('antoalbanese', '30323');
+INSERT INTO VISUALIZZA VALUES
+('johncarano', '02970');
+INSERT INTO VISUALIZZA VALUES
+('filippotarducci', '80131');
+INSERT INTO VISUALIZZA VALUES
+('filippotarducci', '26015');
+INSERT INTO VISUALIZZA VALUES
+('filippotarducci', '09123');
+INSERT INTO VISUALIZZA VALUES
+('filippotarducci', '78147');
+INSERT INTO VISUALIZZA VALUES
+('fabriziodeluigi', '22222');
+INSERT INTO VISUALIZZA VALUES
+('nicolasansone', '33333');
+INSERT INTO VISUALIZZA VALUES
+('lollocalsigghi', '09123');
+INSERT INTO VISUALIZZA VALUES
+('lollocalsigghi', '11111');
+INSERT INTO VISUALIZZA VALUES
+('allesemedo', '02970');
+INSERT INTO VISUALIZZA VALUES
+('allesemedo', '80131');
+INSERT INTO VISUALIZZA VALUES
+('giorgiozarletti', '11111');
+INSERT INTO VISUALIZZA VALUES
+('annarossi', '22222');
+INSERT INTO VISUALIZZA VALUES
+('flavioverdi', '09123');
+INSERT INTO VISUALIZZA VALUES
+('jacktoleman', '08417');
+INSERT INTO VISUALIZZA VALUES
+('giuliarossi', '12092');
+INSERT INTO VISUALIZZA VALUES
+('giuliarossi', '08417');
+INSERT INTO VISUALIZZA VALUES
+('stevebruscetti', '11111');
+INSERT INTO VISUALIZZA VALUES
+('giacomopivetta', '79409');
+INSERT INTO VISUALIZZA VALUES
+('giacomopivetta', '48492');
+INSERT INTO VISUALIZZA VALUES
+('stevebruscetti', '89284');
+INSERT INTO VISUALIZZA VALUES
+('bobalf', '59030');
+INSERT INTO VISUALIZZA VALUES
+('bobalf', '89284');
+INSERT INTO VISUALIZZA VALUES
+('aldonullazzo', '08417');
+INSERT INTO VISUALIZZA VALUES
+('giostorti', '79409');
+INSERT INTO VISUALIZZA VALUES
+('aldobaglio', '43241');
+INSERT INTO VISUALIZZA VALUES
+('lollocalsigghi', '80347');
+INSERT INTO VISUALIZZA VALUES
+('filippoterstuldi', '12092');
+INSERT INTO VISUALIZZA VALUES
+('antoalbanese', '83014');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO RECENSIONE VALUES
+('83014', '8', 'Serie tv molto bella e che a tratti fa riflettere molto su ciò che si potrebbe volere dalla vita.', 'antoalbanese');
+INSERT INTO RECENSIONE VALUES
+('12092', '10', 'La miglior serie mai vista. Piena di colpi di scena e gli attori protagonisti sono a dir poco fantastici. Consigliatissima !!!', 'filippoterstuldi');
+INSERT INTO RECENSIONE VALUES
+('80347', '9', 'il film  è una metafora di come gira il mondo, parla della crudeltà nascosta ai nostri occhi ma che in realtà ci è sempre stata e ci sarà sempre.', 'lollocalsigghi');
+INSERT INTO RECENSIONE VALUES
+('43241', '7', 'Film che spiega in modo indiretto il senso della amicizia e che alla fine risulta molto profondo.', 'aldobaglio');
+INSERT INTO RECENSIONE VALUES
+('79409', '4', 'Film a mio parere molto noioso, sconsigliato.', 'giostorti');
+INSERT INTO RECENSIONE VALUES
+('08417', '5', 'Film leggermente cruento, non adatto ai deboli di cuore.', 'aldonullazzo');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO PUBBLICITA VALUES
+('12092', 'www.omegapubblicita.it', '40026447792');
+INSERT INTO PUBBLICITA VALUES
+('83014', 'www.omegapubblicita.it', '40026447792');
+INSERT INTO PUBBLICITA VALUES
+('79409', 'www.megapublic.org', '40026447792');
+INSERT INTO PUBBLICITA VALUES
+('09123', 'www.megapublic.org', '40026447792');
+INSERT INTO PUBBLICITA VALUES
+('10984', 'www.techvideo.com', '63749632140');
+INSERT INTO PUBBLICITA VALUES
+('22222', 'www.quotidianomolise.com', '63749632140');
+INSERT INTO PUBBLICITA VALUES
+('48492', 'www.techvideo.com', '63749632140');
+INSERT INTO PUBBLICITA VALUES
+('09123', 'www.atmpubblicita.it', '02316945874');
+INSERT INTO PUBBLICITA VALUES
+('78147', 'www.atmpubblicita.it', '02316945874');
+INSERT INTO PUBBLICITA VALUES
+('80131', 'www.molisepubblicita.it', '02316945874');
+INSERT INTO PUBBLICITA VALUES
+('30323', 'www.comieco.it', '74103698520');
+INSERT INTO PUBBLICITA VALUES
+('26015', 'www.pugliaviva.it', '74103698520');
+INSERT INTO PUBBLICITA VALUES
+('08313', 'www.larepubblica.it', '74103698520');
+INSERT INTO PUBBLICITA VALUES
+('80347', 'www.atmpubblicita.it', '02316945874');
+INSERT INTO PUBBLICITA VALUES
+('33333', 'www.gazzettamodena.it', '91527643000');
+INSERT INTO PUBBLICITA VALUES
+('59030', 'www.quotidianomolise.it', '91527643000');
+INSERT INTO PUBBLICITA VALUES
+('89284', 'www.emiliaoggi.it', '91527643000');
+INSERT INTO PUBBLICITA VALUES
+('08417', 'www.larepubblica.it', '91527643000');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO CORSO_DI_AGGIORNAMENTO VALUES
+('2020-09-26', 'Corretto assemblaggio', '10:00.00');
+INSERT INTO CORSO_DI_AGGIORNAMENTO VALUES
+('2020-10-04', 'Manutenzione ordinaria', '4:00.00');
+INSERT INTO CORSO_DI_AGGIORNAMENTO VALUES
+('2020-04-21', 'Lavorare in sicurezza', '08:00.00');
+INSERT INTO CORSO_DI_AGGIORNAMENTO VALUES
+('2020-07-11', 'Certificazione 31 - Server', '20:00.00');
+INSERT INTO CORSO_DI_AGGIORNAMENTO VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', '09:00.00');
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO PARTECIPA_A VALUES
+('2020-09-26', 'Corretto assemblaggio', 'g41586');
+INSERT INTO PARTECIPA_A VALUES
+('2020-09-26', 'Corretto assemblaggio', 'o04567');
+INSERT INTO PARTECIPA_A VALUES
+('2020-09-26', 'Corretto assemblaggio', 'b14563');
+INSERT INTO PARTECIPA_A VALUES
+('2020-10-04', 'Manutenzione ordinaria', 'g41586');
+INSERT INTO PARTECIPA_A VALUES
+('2020-10-04', 'Manutenzione ordinaria', 'f93067');
+INSERT INTO PARTECIPA_A VALUES
+('2020-10-04', 'Manutenzione ordinaria', 'm14523');
+INSERT INTO PARTECIPA_A VALUES
+('2020-10-04', 'Manutenzione ordinaria', 'q67484');
+INSERT INTO PARTECIPA_A VALUES
+('2020-10-04', 'Manutenzione ordinaria', 's76305');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 'a68324');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 'd52032');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 'v65213');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 'z49731');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 'c36478');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 't29000');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 'p37564');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 'w09806');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 'h85640');
+INSERT INTO PARTECIPA_A VALUES
+('2020-04-21', 'Lavorare in sicurezza', 'j95230');
+INSERT INTO PARTECIPA_A VALUES
+('2020-07-11', 'Certificazione 31 - Server', 'f93067');
+INSERT INTO PARTECIPA_A VALUES
+('2020-07-11', 'Certificazione 31 - Server', 'x10685');
+INSERT INTO PARTECIPA_A VALUES
+('2020-07-11', 'Certificazione 31 - Server', 'v65213');
+INSERT INTO PARTECIPA_A VALUES
+('2020-07-11', 'Certificazione 31 - Server', 's76305');
+INSERT INTO PARTECIPA_A VALUES
+('2020-07-11', 'Certificazione 31 - Server', 'c36478');
+INSERT INTO PARTECIPA_A VALUES
+('2020-07-11', 'Certificazione 31 - Server', 'a74102');
+INSERT INTO PARTECIPA_A VALUES
+('2020-07-11', 'Certificazione 31 - Server', 'l98767');
+INSERT INTO PARTECIPA_A VALUES
+('2020-07-11', 'Certificazione 31 - Server', 'b14563');
+INSERT INTO PARTECIPA_A VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', 'l45632');
+INSERT INTO PARTECIPA_A VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', 'e73065');
+INSERT INTO PARTECIPA_A VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', 'n05030');
+INSERT INTO PARTECIPA_A VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', 'j95230');
+INSERT INTO PARTECIPA_A VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', 'v13126');
+INSERT INTO PARTECIPA_A VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', 'j63696');
+INSERT INTO PARTECIPA_A VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', 'g52014');
+INSERT INTO PARTECIPA_A VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', 'i69210');
+INSERT INTO PARTECIPA_A VALUES
+('2020-02-16', 'Funzionalità e Aggiornamento PC', 'o79631');
